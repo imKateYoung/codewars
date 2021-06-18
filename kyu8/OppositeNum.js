@@ -1,7 +1,7 @@
  //given a number, find its opposite.
 
  function oppositeNum(num){
-	 return -nu;
+	 return -num;
  }
 
 
