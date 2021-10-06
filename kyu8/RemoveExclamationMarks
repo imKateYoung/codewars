@@ -1,0 +1,17 @@
+//Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+function removeExclamationMarks(s) {
+  let arr = s.split('')//convert into an array
+  let res = []
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i]!== "!"){
+      res.push(arr[i])
+    }
+  }
+  let final = res.join('')
+  return final
+  
+}
+
+removeExclamationMarks("Hello!")
+removeExclamationMarks("Hello!World!")
